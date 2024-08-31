@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+</head>
+<body>
+    <div class="tree">
+        <ul>
+            <li>
+                <div class="node couple">
+                    <div>
+                        <img src="https://drive.google.com/thumbnail?id=1XC7OAA9WOX0HdpCJnuNer9lHtVwk1tAd" alt="Grandfather">
+                        <div class="name">Grandpa</div>
+                    </div>
+                    <div>
+                        <img src="https://drive.google.com/thumbnail?id=1cRjRS3ljtPe6VZR2L81a-wd1Plo8Sfi2" alt="Grandmother">
+                        <div class="name">Grandma</div>
+                    </div>
+                </div>
+                <span class="toggle-children">+</span>
+                <ul>
+                    <li>
+                        <div class="node couple">
+                            <div>
+                                <img src="father.jpg" alt="Father">
+                                <div class="name">Father</div>
+                            </div>
+                            <div>
+                                <img src="mother.jpg" alt="Mother">
+                                <div class="name">Mother</div>
+                            </div>
+                        </div>
+                        <span class="toggle-children">+</span>
+                        <ul>
+                            <li>
+                                <div class="node individual">
+                                    <img src="child1.jpg" alt="Child 1">
+                                    <div class="name">Child 1</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="node individual">
+                                    <img src="child2.jpg" alt="Child 2">
+                                    <div class="name">Child 2</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="node individual">
+                            <img src="uncle.jpg" alt="Uncle">
+                            <div class="name">Uncle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="node couple">
+                            <div>
+                                <img src="aunt.jpg" alt="Aunt">
+                                <div class="name">Aunt</div>
+                            </div>
+                            <div>
+                                <img src="aunt-spouse.jpg" alt="Aunt's Spouse">
+                                <div class="name">Aunt's Spouse</div>
+                            </div>
+                        </div>
+                        <span class="toggle-children">+</span>
+                        <ul>
+                            <li>
+                                <div class="node individual">
+                                    <img src="cousin1.jpg" alt="Cousin 1">
+                                    <div class="name">Cousin 1</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="node individual">
+                                    <img src="cousin2.jpg" alt="Cousin 2">
+                                    <div class="name">Cousin 2</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const toggles = document.querySelectorAll('.toggle-children');
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const childUl = this.nextElementSibling;
+                if (childUl.style.display === 'none' || !childUl.style.display) {
+                    childUl.style.display = 'block';
+                    this.textContent = '-';
+                } else {
+                    childUl.style.display = 'none';
+                    this.textContent = '+';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
