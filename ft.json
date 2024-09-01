@@ -26,29 +26,16 @@
         },
         "children": [
             {
-                "type": "individual",
-                "individual": {
-                    "name": "Michael Doe",
-                    "dob": "1980-05-20",
-                    "lifeSpan": {
-                        "start": "1980-05-20",
-                        "end": "2050-05-20"
-                    },
-                    "nickName": "Mike",
-                    "image": "https://via.placeholder.com/80"
-                }
-            },
-            {
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "C S Bhargava",
+                        "name": "Chandra Shekhar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Sally",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
@@ -58,46 +45,33 @@
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
                 },
                 "children": [
                     {
-                        "type": "individual",
-                        "individual": {
-                            "name": "Emma Smith",
-                            "dob": "2015-11-20",
-                            "lifeSpan": {
-                                "start": "2015-11-20",
-                                "end": ""
-                            },
-                            "nickName": "Emmy",
-                            "image": "https://via.placeholder.com/80"
-                        }
-                    },
-                    {
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "C S Bhargava",
+                                "name": "Sarika S Bhargava",
                                 "dob": "1985-10-10",
                                 "lifeSpan": {
                                     "start": "1985-10-10",
                                     "end": "2060-10-10"
                                 },
-                                "nickName": "Sally",
+                                "nickName": "Guddas",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
-                                "name": "Santosh Bhargava",
+                                "name": "Ashok Bhargava",
                                 "dob": "1983-08-15",
                                 "lifeSpan": {
                                     "start": "1983-08-15",
                                     "end": "2070-08-15"
                                 },
-                                "nickName": "Rob",
+                                "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "marriageDate": "2010-09-10"
@@ -106,7 +80,7 @@
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Emma Smith",
+                                    "name": "Mayuri Bhargava",
                                     "dob": "2015-11-20",
                                     "lifeSpan": {
                                         "start": "2015-11-20",
@@ -122,23 +96,23 @@
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "C S Bhargava",
+                                "name": "Ritu Bhargava",
                                 "dob": "1985-10-10",
                                 "lifeSpan": {
                                     "start": "1985-10-10",
                                     "end": "2060-10-10"
                                 },
-                                "nickName": "Sally",
+                                "nickName": "Doll",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
-                                "name": "Santosh Bhargava",
+                                "name": "Shyam Bhargava",
                                 "dob": "1983-08-15",
                                 "lifeSpan": {
                                     "start": "1983-08-15",
                                     "end": "2070-08-15"
                                 },
-                                "nickName": "Rob",
+                                "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "marriageDate": "2010-09-10"
@@ -147,13 +121,13 @@
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Emma Smith",
+                                    "name": "Mridul Bhargava",
                                     "dob": "2015-11-20",
                                     "lifeSpan": {
                                         "start": "2015-11-20",
                                         "end": ""
                                     },
-                                    "nickName": "Emmy",
+                                    "nickName": "",
                                     "image": "https://via.placeholder.com/80"
                                 }
                             }
@@ -163,23 +137,23 @@
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "C S Bhargava",
+                                "name": "Samir Bhargava",
                                 "dob": "1985-10-10",
                                 "lifeSpan": {
                                     "start": "1985-10-10",
                                     "end": "2060-10-10"
                                 },
-                                "nickName": "Sally",
+                                "nickName": "Pappey",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
-                                "name": "Santosh Bhargava",
+                                "name": "Sapna Bhargava",
                                 "dob": "1983-08-15",
                                 "lifeSpan": {
                                     "start": "1983-08-15",
                                     "end": "2070-08-15"
                                 },
-                                "nickName": "Rob",
+                                "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "marriageDate": "2010-09-10"
@@ -188,54 +162,13 @@
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Emma Smith",
+                                    "name": "Navdha Bhargava",
                                     "dob": "2015-11-20",
                                     "lifeSpan": {
                                         "start": "2015-11-20",
                                         "end": ""
                                     },
-                                    "nickName": "Emmy",
-                                    "image": "https://via.placeholder.com/80"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "type": "couple",
-                        "couple": {
-                            "individual1": {
-                                "name": "C S Bhargava",
-                                "dob": "1985-10-10",
-                                "lifeSpan": {
-                                    "start": "1985-10-10",
-                                    "end": "2060-10-10"
-                                },
-                                "nickName": "Sally",
-                                "image": "https://via.placeholder.com/80"
-                            },
-                            "individual2": {
-                                "name": "Santosh Bhargava",
-                                "dob": "1983-08-15",
-                                "lifeSpan": {
-                                    "start": "1983-08-15",
-                                    "end": "2070-08-15"
-                                },
-                                "nickName": "Rob",
-                                "image": "https://via.placeholder.com/80"
-                            },
-                            "marriageDate": "2010-09-10"
-                        },
-                        "children": [
-                            {
-                                "type": "individual",
-                                "individual": {
-                                    "name": "Emma Smith",
-                                    "dob": "2015-11-20",
-                                    "lifeSpan": {
-                                        "start": "2015-11-20",
-                                        "end": ""
-                                    },
-                                    "nickName": "Emmy",
+                                    "nickName": "Khushboo",
                                     "image": "https://via.placeholder.com/80"
                                 }
                             }
@@ -247,13 +180,11 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Ravi Shankar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
-                            "start": "1985-10-10",
-                            "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Rabu Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
@@ -263,7 +194,7 @@
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -273,7 +204,7 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Shiv Shankar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
@@ -289,7 +220,7 @@
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -299,23 +230,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Rajesh Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Gibban Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Uma Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -325,23 +256,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Lav Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Lav Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Beena Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -351,23 +282,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Kush Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Kush Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Urmila Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -377,23 +308,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Avadhesh Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Guttu Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Sushma Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -403,23 +334,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Dileep Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Deepu Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Nisha Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
@@ -429,49 +360,23 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "S S Bhargava",
+                        "name": "Ashok Kumar Bhargava",
                         "dob": "1985-10-10",
                         "lifeSpan": {
                             "start": "1985-10-10",
                             "end": "2060-10-10"
                         },
-                        "nickName": "Shibu Ji",
+                        "nickName": "Ashok Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
-                        "name": "Sudha Bhargava",
+                        "name": "Renu Bhargava",
                         "dob": "1983-08-15",
                         "lifeSpan": {
                             "start": "1983-08-15",
                             "end": "2070-08-15"
                         },
-                        "nickName": "Rob",
-                        "image": "https://via.placeholder.com/80"
-                    },
-                    "marriageDate": "2010-09-10"
-                }
-            },
-            {
-                "type": "couple",
-                "couple": {
-                    "individual1": {
-                        "name": "S S Bhargava",
-                        "dob": "1985-10-10",
-                        "lifeSpan": {
-                            "start": "1985-10-10",
-                            "end": "2060-10-10"
-                        },
-                        "nickName": "Shibu Ji",
-                        "image": "https://via.placeholder.com/80"
-                    },
-                    "individual2": {
-                        "name": "Sudha Bhargava",
-                        "dob": "1983-08-15",
-                        "lifeSpan": {
-                            "start": "1983-08-15",
-                            "end": "2070-08-15"
-                        },
-                        "nickName": "Rob",
+                        "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "marriageDate": "2010-09-10"
