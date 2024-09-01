@@ -145,6 +145,7 @@
     }
 
     // Function to create a tree node
+    // Function to create a tree node
     function createTreeNode(node) {
         const li = document.createElement('li');
 
@@ -197,6 +198,7 @@
         if (node.children && node.children.length > 0) {
             const ul = document.createElement('ul');
             ul.className = 'children';
+            ul.style.display = 'none'; // Ensure children are initially hidden
             node.children.forEach(child => {
                 ul.appendChild(createTreeNode(child));
             });
@@ -205,6 +207,7 @@
 
         return li;
     }
+
 
     // Fetch the family tree data and build the tree on page load
     window.onload = fetchFamilyTree;
