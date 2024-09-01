@@ -171,13 +171,15 @@
                     <img src="${node.couple.individual1.image}" alt="${node.couple.individual1.name}">
                     <p><strong>${node.couple.individual1.name} (${node.couple.individual1.nickName})</strong></p>
                     <p>DOB: ${node.couple.individual1.dob}</p>
+                    <!-- if (node.couple.individual1.lifeSpan && Object.keys(node.couple.individual1.lifeSpan).length > 0 {
                     <p>Life Span: ${node.couple.individual1.lifeSpan.start} - ${node.couple.individual1.lifeSpan.end}</p>
+                    } -->
                 </div>
                 <div>
                     <img src="${node.couple.individual2.image}" alt="${node.couple.individual2.name}">
                     <p><strong>${node.couple.individual2.name} (${node.couple.individual2.nickName})</strong></p>
                     <p>DOB: ${node.couple.individual2.dob}</p>
-                    <p>Life Span: ${node.couple.individual2.lifeSpan.start} - ${node.couple.individual2.lifeSpan.end}</p>
+                    <!-- <p>Life Span: ${node.couple.individual2.lifeSpan.start} - ${node.couple.individual2.lifeSpan.end}</p>-->
                 </div>
                 <p>Married: ${node.couple.marriageDate}</p>
             `;
@@ -190,7 +192,7 @@
                 <img src="${node.individual.image}" alt="${node.individual.name}">
                 <p><strong>${node.individual.name} (${node.individual.nickName})</strong></p>
                 <p>DOB: ${node.individual.dob}</p>
-                <p>Life Span: ${node.individual.lifeSpan.start} - ${node.individual.lifeSpan.end}</p>
+                <!-- <p>Life Span: ${node.individual.lifeSpan.start} - ${node.individual.lifeSpan.end}</p>-->
             `;
             li.appendChild(div);
         }
