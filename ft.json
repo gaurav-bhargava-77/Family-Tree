@@ -339,7 +339,22 @@
                                         "image": "https://via.placeholder.com/80"
                                     },
                                     "marriageDate": "23-11-2005"
-                                }
+                                },
+                                "children": [
+                                    {
+                                        "type": "individual",
+                                        "individual": {
+                                            "name": "Rudra Bhargava",
+                                            "dob": "28-07-2008",
+                                            "lifeSpan": {
+                                                "start": "2015-11-20",
+                                                "end": ""
+                                            },
+                                            "nickName": "",
+                                            "image": "https://via.placeholder.com/80"
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "type": "individual",
@@ -1285,7 +1300,7 @@
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Peehu Bhargava",
+                                    "name": "Alishca Bhargava",
                                     "dob": "12-11-2012",
                                     "lifeSpan": {
                                         "start": "2015-11-20",
@@ -1348,7 +1363,7 @@
                                     "start": "1985-10-10",
                                     "end": "2060-10-10"
                                 },
-                                "nickName": "Ishu",
+                                "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                                 },
                             "individual2": {
