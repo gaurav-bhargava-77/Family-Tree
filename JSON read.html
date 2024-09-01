@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchical Family Tree</title>
+    <style>
+        .family-tree {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        .couple {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        .couple-info {
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            border: 2px solid #4a4a4a;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .person {
+            text-align: center;
+            margin: 0 5px;
+        }
+        .person img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .children {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .expand-icon {
+            cursor: pointer;
+            user-select: none;
+            margin-top: 5px;
+        }
+        .vertical-line {
+            width: 2px;
+            height: 20px;
+            background-color: #4a4a4a;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="family-tree" class="family-tree"></div>
+
+    <script>
+        const familyData = {
+            "people": {
+                "1": {"name": "Great Grandpa", "dob": "1950-01-01", "photo": "https://drive.google.com/thumbnail?id=1XC7OAA9WOX0HdpCJnuNer9lHtVwk1tAd", "spouseId": "2", "parentCoupleId": null},
+                "2": {"name": "Great Grandma", "dob": "1952-03-15", "photo": "https://drive.google.com/thumbnail?id=1cRjRS3ljtPe6VZR2L81a-wd1Plo8Sfi2", "spouseId": "1", "parentCoupleId": null},
+                "3": {"name": "GrandFather 1", "dob": "1975-05-20", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": "4", "parentCoupleId": "1-2"},
+                "4": {"name": "Grandmother 1", "dob": "1978-08-30", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": "3", "parentCoupleId": null},
+                "6": {"name": "GrandFather 2", "dob": "1975-05-20", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": "7", "parentCoupleId": "1-2"},
+                "7": {"name": "Grandmother 2", "dob": "1978-08-30", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": "6", "parentCoupleId": null},
+                "5": {"name": "Gen 3_1", "dob": "2000-12-25", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": null, "parentCoupleId": "3-4"},
+                "8": {"name": "Gen 3_2", "dob": "2000-12-25", "photo": "https://drive.google.com/uc?id=YOUR_GOOGLE_DRIVE_FILE_ID", "spouseId": null, "parentCoupleId": "6-7"}
+            },
+            "rootCoupleId": "1-2"
+        };
+
+        function createPersonElement(personId, data) {
+            const person = data.people[personId];
+            const personElement = document.createElement('div');
+            personElement.className = 'person';
+            
+            const img = document.createElement('img');
+            img.src = person.photo;
+            img.alt = person.name;
+            personElement.appendChild(img);
+            
+            const name = document.createElement('h3');
+            name.textContent = person.name;
+            personElement.appendChild(name);
+            
+            const dob = document.createElement('p');
+            dob.textContent = `DOB: ${person.dob}`;
+            personElement.appendChild(dob);
+            
+            return personElement;
+        }
+
+        function createCoupleElement(person1Id, person2Id, data) {
+            const coupleElement = document.createElement('div');
+            coupleElement.className = 'couple';
+            
+            const coupleInfo = document.createElement('div');
+            coupleInfo.className = 'couple-info';
+            
+            coupleInfo.appendChild(createPersonElement(person1Id, data));
+            if (person2Id) {
+                coupleInfo.appendChild(createPersonElement(person2Id, data));
+            }
+            
+            coupleElement.appendChild(coupleInfo);
+            
+            const coupleId = person2Id ? `${person1Id}-${person2Id}` : person1Id;
+            const children = Object.keys(data.people).filter(id => data.people[id].parentCoupleId === coupleId);
+            
+            if (children.length > 0) {
+                const expandIcon = document.createElement('div');
+                expandIcon.className = 'expand-icon';
+                expandIcon.textContent = '▼';
+                coupleElement.appendChild(expandIcon);
+
+                const verticalLine = document.createElement('div');
+                verticalLine.className = 'vertical-line';
+                coupleElement.appendChild(verticalLine);
+
+                const childrenContainer = document.createElement('div');
+                childrenContainer.className = 'children';
+                children.forEach(childId => {
+                    const childSpouseId = data.people[childId].spouseId;
+                    childrenContainer.appendChild(createCoupleElement(childId, childSpouseId, data));
+                });
+                
+                coupleElement.appendChild(childrenContainer);
+                
+                expandIcon.addEventListener('click', function() {
+                    childrenContainer.style.display = childrenContainer.style.display === 'none' ? 'flex' : 'none';
+                    verticalLine.style.display = childrenContainer.style.display === 'none' ? 'none' : 'block';
+                    this.textContent = childrenContainer.style.display === 'none' ? '▼' : '▲';
+                });
+
+                // Initially hide children
+                childrenContainer.style.display = 'none';
+                verticalLine.style.display = 'none';
+            }
+            
+            return coupleElement;
+        }
+
+        function renderFamilyTree(data) {
+            const familyTreeElement = document.getElementById('family-tree');
+            const [person1Id, person2Id] = data.rootCoupleId.split('-');
+            familyTreeElement.appendChild(createCoupleElement(person1Id, person2Id, data));
+        }
+
+        renderFamilyTree(familyData);
+    </script>
+</body>
+</html>
