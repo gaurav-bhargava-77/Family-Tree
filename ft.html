@@ -201,7 +201,9 @@
             `;
 
             li.appendChild(div);
-            li.appendChild(toggleButton);
+            if (node.type === 'couple' && node.children && Object.keys(node.children).length > 0) {
+                li.appendChild(toggleButton);
+            }
         } else if (node.type === 'individual') {
             const div = document.createElement('div');
             div.innerHTML = `
