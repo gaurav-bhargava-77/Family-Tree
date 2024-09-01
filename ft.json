@@ -4,7 +4,7 @@
         "couple": {
             "individual1": {
                 "name": "Pt. Mool Chand Bhargava",
-                "dob": "1950-01-01",
+                "dob": "xx-xx-1908",
                 "lifeSpan": {
                     "start": "1950-01-01",
                     "end": "2020-01-01"
@@ -14,7 +14,7 @@
             },
             "individual2": {
                 "name": "Smt. Raj Rani Bhargava",
-                "dob": "1955-02-01",
+                "dob": "xx-xx-1912",
                 "lifeSpan": {
                     "start": "1955-02-01",
                     "end": "2022-01-01"
@@ -25,6 +25,30 @@
             "marriageDate": "NA"
         },
         "children": [
+            {
+                "type": "couple",
+                "couple": {
+                    "individual1": {
+                        "name": "Pushpa Bhargava",
+                        "dob": "1985-10-10",
+                        "lifeSpan": {
+                        },
+                        "nickName": "Betul Wali Bua",
+                        "image": "https://via.placeholder.com/80"
+                    },
+                    "individual2": {
+                        "name": "Prakash Chand Bhargava",
+                        "dob": "1983-08-15",
+                        "lifeSpan": {
+                            "start": "1983-08-15",
+                            "end": "2070-08-15"
+                        },
+                        "nickName": "",
+                        "image": "https://via.placeholder.com/80"
+                    },
+                    "marriageDate": "NA"
+                }
+            },
             {
                 "type": "couple",
                 "couple": {
@@ -78,16 +102,55 @@
                         },
                         "children": [
                             {
-                                "type": "individual",
-                                "individual": {
-                                    "name": "Mayuri Bhargava",
-                                    "dob": "2015-11-20",
-                                    "lifeSpan": {
-                                        "start": "2015-11-20",
-                                        "end": ""
+                                "type": "couple",
+                                "couple": {
+                                    "individual1": {
+                                        "name": "Mayuri Bhargava",
+                                        "dob": "1985-10-10",
+                                        "lifeSpan": {
+                                            "start": "1985-10-10",
+                                            "end": "2060-10-10"
+                                        },
+                                        "nickName": "",
+                                        "image": "https://via.placeholder.com/80"
                                     },
-                                    "nickName": "Emmy",
-                                    "image": "https://via.placeholder.com/80"
+                                    "individual2": {
+                                        "name": "....",
+                                        "dob": "1983-08-15",
+                                        "lifeSpan": {
+                                            "start": "1983-08-15",
+                                            "end": "2070-08-15"
+                                        },
+                                        "nickName": "",
+                                        "image": "https://via.placeholder.com/80"
+                                    },
+                                    "marriageDate": "NA"
+                                }
+                            },
+                            {
+                                "type": "couple",
+                                "couple": {
+                                    "individual1": {
+                                        "name": "Mansi Bhargava",
+                                        "dob": "1985-10-10",
+                                        "lifeSpan": {
+                                            "start": "1985-10-10",
+                                            "end": "2060-10-10"
+                                        },
+                                        "nickName": "",
+                                        "image": "https://via.placeholder.com/80"
+                                    },
+                                    "individual2": {
+                                        "name": "...",
+                                        "dob": "1983-08-15",
+                                        "lifeSpan": {
+                                            "start": "1983-08-15",
+                                            "end": "2070-08-15"
+                                        },
+                                        "nickName": "",
+                                        "image": "https://via.placeholder.com/80"
+                                    },
+                                    "marriageDate": "NA"
                                 }
                             }
                         ]
@@ -122,6 +185,19 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Mridul Bhargava",
+                                    "dob": "2015-11-20",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "",
+                                    "image": "https://via.placeholder.com/80"
+                                }
+                            },
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Shreya Bhargava",
                                     "dob": "2015-11-20",
                                     "lifeSpan": {
                                         "start": "2015-11-20",
@@ -169,6 +245,19 @@
                                         "end": ""
                                     },
                                     "nickName": "Khushboo",
+                                    "image": "https://via.placeholder.com/80"
+                                }
+                            },
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Kriti Bhargava",
+                                    "dob": "2015-11-20",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "Mahek",
                                     "image": "https://via.placeholder.com/80"
                                 }
                             }
@@ -315,7 +404,7 @@
                             "end": "2060-10-10"
                         },
                         "nickName": "Guttu Ji",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1I93PnNseIqWM_wgldn2UE8ZMt1ZS3jp-"
                     },
                     "individual2": {
                         "name": "Sushma Bhargava",
@@ -325,10 +414,148 @@
                             "end": "2070-08-15"
                         },
                         "nickName": "",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1A0QafKBNZF7kXpe1Xdb5TUGtJoUZtpH0"
                     },
                     "marriageDate": "NA"
-                }
+                },
+                "children": [
+                    {
+                        "type": "couple",
+                        "couple": {
+                            "individual1": {
+                                "name": "Gaurav Bhargava",
+                                "dob": "22-09-1977",
+                                "lifeSpan": {
+                                    "start": "1985-10-10",
+                                    "end": "2060-10-10"
+                                },
+                                "nickName": "Paploo",
+                                "image": "https://drive.google.com/thumbnail?id=1xvaC4aiXeF7oo6rsbBssskqttKrLrqBt"
+                            },
+                            "individual2": {
+                                "name": "Sakshi Bhargava",
+                                "dob": "19-12-1981",
+                                "lifeSpan": {
+                                    "start": "1983-08-15",
+                                    "end": "2070-08-15"
+                                },
+                                "nickName": "",
+                                "image": "https://drive.google.com/thumbnail?id=14MlFi6ZFI3oNjg8uLk21rva4DfrjtBVc"
+                            },
+                            "marriageDate": "23-11-2005"
+                        },
+                        "children": [
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Shaurya Bhargava",
+                                    "dob": "28-07-2008",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "Sunny",
+                                    "image": "https://drive.google.com/thumbnail?id=1wp8n6MHwz-CQQcHvCj9GLb9XrYXsFFkW"
+                                }
+                            },
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Mishka Bhargava",
+                                    "dob": "09-07-2011",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "Sia",
+                                    "image": "https://drive.google.com/thumbnail?id=1Yai4ugZ1q6T-r7wftUTbaVETnTjnL1T-"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "couple",
+                        "couple": {
+                            "individual1": {
+                                "name": "Gunjan Bhargava",
+                                "dob": "02-12-1980",
+                                "lifeSpan": {
+                                    "start": "1985-10-10",
+                                    "end": "2060-10-10"
+                                },
+                                "nickName": "Gudia",
+                                "image": "https://via.placeholder.com/80"
+                            },
+                            "individual2": {
+                                "name": "Praful Srivastav",
+                                "dob": "22-12-1971",
+                                "lifeSpan": {
+                                    "start": "1983-08-15",
+                                    "end": "2070-08-15"
+                                },
+                                "nickName": "",
+                                "image": "https://via.placeholder.com/80"
+                            },
+                            "marriageDate": "17-11-2009"
+                        },
+                        "children": [
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Jazz Srivastav",
+                                    "dob": "13-08-2012",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "",
+                                    "image": "https://via.placeholder.com/80"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "couple",
+                        "couple": {
+                            "individual1": {
+                                "name": "Parul Bhargava",
+                                "dob": "29-03-1983",
+                                "lifeSpan": {
+                                    "start": "1985-10-10",
+                                    "end": "2060-10-10"
+                                },
+                                "nickName": "Roli",
+                                "image": "https://via.placeholder.com/80"
+                            },
+                            "individual2": {
+                                "name": "Vishal Bhargava",
+                                "dob": "22-01-1980",
+                                "lifeSpan": {
+                                    "start": "1983-08-15",
+                                    "end": "2070-08-15"
+                                },
+                                "nickName": "",
+                                "image": "https://via.placeholder.com/80"
+                            },
+                            "marriageDate": "02-12-2008"
+                        },
+                        "children": [
+                            {
+                                "type": "individual",
+                                "individual": {
+                                    "name": "Parv Bhargava",
+                                    "dob": "12-11-2012",
+                                    "lifeSpan": {
+                                        "start": "2015-11-20",
+                                        "end": ""
+                                    },
+                                    "nickName": "Billu",
+                                    "image": "https://via.placeholder.com/80"
+                                }
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "type": "couple",
