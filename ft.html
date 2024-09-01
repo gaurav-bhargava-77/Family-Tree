@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <style>
+        /* Container for the entire tree, allowing horizontal scrolling */
+        .tree-container {
+            width: 100%;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 20px;
+        }
+
+        /* Basic tree styling */
+        ul {
+            padding-top: 20px;
+            position: relative;
+            padding-left: 30px;
+            display: inline-block; /* Keep siblings on a single line */
+        }
+
+        li {
+            display: inline-block; /* Keep siblings in a single line */
+            text-align: center;
+            list-style-type: none;
+            position: relative;
+            padding: 10px 5px 0 5px; /* Reduced padding */
+            vertical-align: top;
+            min-height: 80px; /* Ensure consistent height for parent nodes */
+        }
+
+        li::before, li::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 50%;
+            border-top: 2px solid #ccc;
+            width: 50%;
+            height: 20px;
+        }
+
+        li::after {
+            right: auto;
+            left: 50%;
+            border-left: 2px solid #ccc;
+        }
+
+        li:only-child::after, li:only-child::before {
+            display: none;
+        }
+
+        li:only-child {
+            padding-top: 0;
+        }
+
+        li:first-child::before, li:last-child::after {
+            border: 0 none;
+        }
+
+        li:last-child::before {
+            border-right: 2px solid #ccc;
+            border-radius: 0 5px 0 0;
+        }
+
+        li:first-child::after {
+            border-radius: 5px 0 0 0;
+        }
+
+        .tree ul ul::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            border-left: 2px solid #ccc;
+            width: 0;
+            height: 20px;
+        }
+
+        .tree li div {
+            border: 1px solid #ccc;
+            padding: 5px; /* Reduced padding */
+            text-align: center;
+            border-radius: 5px;
+            background: #fff;
+            font-size: 12px; /* Reduced font size */
+            display: inline-block; /* Keep block inline to center */
+        }
+
+        .tree img {
+            border-radius: 50%;
+            width: 50px; /* Reduced image size */
+            height: 50px;
+            margin-bottom: 5px; /* Reduced margin */
+        }
+
+        .tree li div:hover {
+            box-shadow: 0 0 5px #666;
+            transition: box-shadow 0.3s;
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            color: blue;
+            margin-top: 5px; /* Reduced margin */
+            font-size: 12px; /* Reduced font size */
+            display: block;
+        }
+
+        .children {
+            display: none;
+            position: relative; /* Changed to relative to avoid affecting parent size */
+            left: 0; /* Center under the parent */
+            top: 0; /* Position relative to parent */
+            margin-left: 30px; /* Indent child tree for clarity */
+        }
+
+        .children ul {
+            display: block; /* Ensure children are displayed as block elements */
+            padding-left: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+<body>
+
+<div class="tree-container">
+    <div class="tree">
+        <ul id="familyTree">
+            <!-- Family tree will be generated here -->
+        </ul>
+    </div>
+</div>
+
+<script>
+    // Function to fetch JSON data and build the tree
+    function fetchFamilyTree() {
+        fetch('./ft.json')
+            .then(response => response.json())
+            .then(data => {
+                const treeContainer = document.getElementById('familyTree');
+                treeContainer.appendChild(createTreeNode(data.root));
+            });
+    }
+
+    // Function to create a tree node
+    function createTreeNode(node) {
+        const li = document.createElement('li');
+
+        if (node.type === 'couple') {
+            const div = document.createElement('div');
+            const toggleButton = document.createElement('span');
+            toggleButton.className = 'toggle-button';
+            toggleButton.innerText = '+ ...';
+
+            toggleButton.addEventListener('click', function() {
+                const childrenContainer = li.querySelector('.children');
+                if (childrenContainer.style.display === 'none' || childrenContainer.style.display === '') {
+                    childrenContainer.style.display = 'block';
+                    toggleButton.innerText = '- ...';
+                } else {
+                    childrenContainer.style.display = 'none';
+                    toggleButton.innerText = '+ ...';
+                }
+            });
+
+            div.innerHTML = `
+                <div>
+                    <img src="${node.couple.individual1.image}" alt="${node.couple.individual1.name}">
+                    <p><strong>${node.couple.individual1.name} (${node.couple.individual1.nickName})</strong></p>
+                    <p>DOB: ${node.couple.individual1.dob}</p>
+                    <p>Life Span: ${node.couple.individual1.lifeSpan.start} - ${node.couple.individual1.lifeSpan.end}</p>
+                </div>
+                <div>
+                    <img src="${node.couple.individual2.image}" alt="${node.couple.individual2.name}">
+                    <p><strong>${node.couple.individual2.name} (${node.couple.individual2.nickName})</strong></p>
+                    <p>DOB: ${node.couple.individual2.dob}</p>
+                    <p>Life Span: ${node.couple.individual2.lifeSpan.start} - ${node.couple.individual2.lifeSpan.end}</p>
+                </div>
+                <p>Married: ${node.couple.marriageDate}</p>
+            `;
+
+            li.appendChild(div);
+            li.appendChild(toggleButton);
+        } else if (node.type === 'individual') {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <img src="${node.individual.image}" alt="${node.individual.name}">
+                <p><strong>${node.individual.name} (${node.individual.nickName})</strong></p>
+                <p>DOB: ${node.individual.dob}</p>
+                <p>Life Span: ${node.individual.lifeSpan.start} - ${node.individual.lifeSpan.end}</p>
+            `;
+            li.appendChild(div);
+        }
+
+        if (node.children && node.children.length > 0) {
+            const ul = document.createElement('ul');
+            ul.className = 'children';
+            node.children.forEach(child => {
+                ul.appendChild(createTreeNode(child));
+            });
+            li.appendChild(ul);
+        }
+
+        return li;
+    }
+
+    // Fetch the family tree data and build the tree on page load
+    window.onload = fetchFamilyTree;
+</script>
+
+</body>
+</html>
