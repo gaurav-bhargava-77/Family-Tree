@@ -212,19 +212,19 @@
                 "couple": {
                     "individual1": {
                         "name": "Ravi Shankar Bhargava",
-                        "dob": "1985-10-10",
-                        "dod": "NA",
+                        "dob": "07-02-1935",
+                        "dod": "09-02-2012",
                         "nickName": "Rabu Ji",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
                         "name": "Sudha Bhargava",
-                        "dob": "1983-08-15",
+                        "dob": "01-09-1942",
                         "dod": "NA",
                         "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "06-12-1962"
                 },
                 "children": [
                     {
@@ -232,27 +232,19 @@
                         "couple": {
                             "individual1": {
                                 "name": "Sanjay Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "25-12-1963",
                                 "dod": "NA",
-                                "lifeSpan": {
-                                    "start": "1985-10-10",
-                                    "end": "2060-10-10"
-                                },
                                 "nickName": "Dada",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Deepti Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "19-11-1969",
                                 "dod": "NA",
-                                "lifeSpan": {
-                                    "start": "1983-08-15",
-                                    "end": "2070-08-15"
-                                },
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "28-09-1990"
                         },
                         "children": [
                             {
@@ -260,7 +252,7 @@
                                 "couple": {
                                     "individual1": {
                                         "name": "Ishita Bhargava",
-                                        "dob": "22-09-1977",
+                                        "dob": "24-09-1991",
                                         "dod": "NA",
                                         "nickName": "Ishu",
                                         "image": "https://via.placeholder.com/80"
@@ -291,7 +283,7 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Prakriti Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "07-10-1995",
                                     "dod": "NA",
                                     "nickName": "Manu",
                                     "image": "https://via.placeholder.com/80"
@@ -303,27 +295,27 @@
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "Srinjana Bhargava",
-                                "dob": "22-09-1977",
+                                "name": "Shrinjana Bhargava",
+                                "dob": "25-12-1967",
                                 "dod": "NA",
                                 "nickName": "Babli",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Umesh Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "27-10-1962",
                                 "dod": "NA",
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "20-11-1992"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Yash Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "27-08-1993",
                                     "dod": "NA",
                                     "nickName": "",
                                     "image": "https://via.placeholder.com/80"
@@ -333,7 +325,7 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Rohan Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "09-05-1998",
                                     "dod": "NA",
                                     "nickName": "Nannu",
                                     "image": "https://via.placeholder.com/80"
@@ -346,26 +338,26 @@
                         "couple": {
                             "individual1": {
                                 "name": "Sanjeev Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "02-01-1970",
                                 "dod": "NA",
                                 "nickName": "Dabbu",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Deepti Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "12-12-1975",
                                 "dod": "NA",
-                                "nickName": "",
+                                "nickName": "Deepali",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "03-03-1998"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Ishan Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "30-11-1999",
                                     "dod": "NA",
                                     "nickName": "Rikki",
                                     "image": "https://via.placeholder.com/80"
@@ -375,7 +367,7 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Kashish Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "23-08-2005",
                                     "dod": "NA",
                                     "nickName": "Nikki",
                                     "image": "https://via.placeholder.com/80"
@@ -388,29 +380,29 @@
                         "couple": {
                             "individual1": {
                                 "name": "Sunil Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "02-12-1971",
                                 "dod": "NA",
                                 "nickName": "Tinnu",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/file/d/1L3VCk7xVDLH9gXqspH9Idpqid3VYT1_u/view?usp=drive_link"
                             },
                             "individual2": {
                                 "name": "Shikha Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "09-09-1977",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/file/d/1Q8OphAx046xC5Eer0_kQSn-UTpTFJK9G/view?usp=drive_link"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "16-04-2000"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Prakhar Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "07-02-2002",
                                     "dod": "NA",
                                     "nickName": "",
-                                    "image": "https://via.placeholder.com/80"
+                                    "image": "https://drive.google.com/file/d/1JgAAWsyydPqnTHLD891ZD1K9emH3oLtW/view?usp=drive_link"
                                 }
                             }
                         ]
