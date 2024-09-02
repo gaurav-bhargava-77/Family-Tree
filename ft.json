@@ -16,7 +16,7 @@
                 "nickName": "Ammaji",
                 "image": "https://drive.google.com/thumbnail?id=1cRjRS3ljtPe6VZR2L81a-wd1Plo8Sfi2"
             },
-            "marriageDate": "NA"
+            "marriageDate": "xx-xx-1924"
         },
         "children": [
             {
@@ -304,26 +304,26 @@
                         "couple": {
                             "individual1": {
                                 "name": "Srinjana Bhargava",
-                                "dob": "25-12-1967",
+                                "dob": "22-09-1977",
                                 "dod": "NA",
                                 "nickName": "Babli",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Umesh Bhargava",
-                                "dob": "27-10-1962",
+                                "dob": "19-12-1981",
                                 "dod": "NA",
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "20-11-1992"
+                            "marriageDate": "23-11-2005"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Yash Bhargava",
-                                    "dob": "27-08-1993",
+                                    "dob": "28-07-2008",
                                     "dod": "NA",
                                     "nickName": "",
                                     "image": "https://via.placeholder.com/80"
@@ -333,7 +333,7 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Rohan Bhargava",
-                                    "dob": "09-05-1998",
+                                    "dob": "28-07-2008",
                                     "dod": "NA",
                                     "nickName": "Nannu",
                                     "image": "https://via.placeholder.com/80"
@@ -1040,29 +1040,29 @@
                 "couple": {
                     "individual1": {
                         "name": "Ashok Kumar Bhargava",
-                        "dob": "1985-10-10",
+                        "dob": "24-06-1951",
                         "dod": "NA",
                         "nickName": "Ashok Ji",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1LYQKUBeoWovl5oPZZ7veNJ39FYc8NA-J   "
                     },
                     "individual2": {
                         "name": "Renu Bhargava",
-                        "dob": "1983-08-15",
-                        "dod": "NA",
+                        "dob": "05-09-1960",
+                        "dod": "08-11-2016",
                         "nickName": "",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1PRqFT39bqo65JubbjMKuqp95gk5usoIB"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "29-11-1983"
                 },
                 "children": [
                     {
                         "type": "individual",
                         "individual": {
                             "name": "Vikky Bhargava",
-                            "dob": "28-07-2008",
+                            "dob": "17-09-1984",
                             "dod": "NA",
                             "nickName": "",
-                            "image": "https://via.placeholder.com/80"
+                            "image": "https://drive.google.com/thumbnail?id=15_3EEwVdnr-nWVsZ_KxadnQlHA93PXLO"
                         }
                     },
                     {
@@ -1070,19 +1070,19 @@
                         "couple": {
                             "individual1": {
                                 "name": "Rohit Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "19-06-1987",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1l0DBaW0cdNEL9iT9_yCM-ncCwXX9UNTv"
                             },
                             "individual2": {
-                                "name": "Kriti Bhargava",
-                                "dob": "19-12-1981",
+                                "name": "Kriti Sharma",
+                                "dob": "02-12-1988",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1pQ_ebIK9_rNmImdyCoR4B00tJNACqCz1"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "16-02-2021"
                         }
                     }
                 ]
