@@ -152,7 +152,7 @@
 <script>
     // Function to fetch JSON data and build the tree
     function fetchFamilyTree() {
-        fetch('./ft.json')
+        fetch('./ft-new.json')
             .then(response => response.json())
             .then(data => {
                 const treeContainer = document.getElementById('familyTree');
@@ -160,6 +160,36 @@
             });
     }
 
+    function calculateAge(dob) {
+        // Split the input string
+        const [day, month, year] = dob.split('-').map(Number);
+
+        // Create a Date object for the date of birth
+        const dobDate = new Date(year, month - 1, day); // month - 1 because months are 0-indexed
+
+        // Get the current date
+        const today = new Date();
+
+        // Calculate the age in years
+        let ageYears = today.getFullYear() - dobDate.getFullYear();
+        let ageMonths = today.getMonth() - dobDate.getMonth();
+
+        // Adjust age if the current date is before the birthday in the current year
+        if (ageMonths < 0 || (ageMonths === 0 && today.getDate() < dobDate.getDate())) {
+            ageYears--;
+            ageMonths += 12; // Adjust months to be positive
+        }
+
+        // Adjust months if the current day is less than the birth day
+        if (today.getDate() < dobDate.getDate()) {
+            ageMonths--;
+        }
+
+        return {
+            years: ageYears,
+            months: ageMonths < 0 ? 0 : ageMonths // Ensure months are non-negative
+        };
+    }
     // Function to create a tree node
     // Function to create a tree node
     function createTreeNode(node) {
@@ -175,30 +205,51 @@
                 const childrenContainer = li.querySelector('.children');
                 if (childrenContainer.style.display === 'none' || childrenContainer.style.display === '') {
                     childrenContainer.style.display = 'block';
-                    toggleButton.innerText = '-';
+                    toggleButton.innerText = '-'
                 } else {
                     childrenContainer.style.display = 'none';
-                    toggleButton.innerText = '+';
+                    toggleButton.innerText = '+'
                 }
             });
 
-            div.innerHTML = `
+            let htmlcode = `
                 <div>
                     <img src="${node.couple.individual1.image}" alt="${node.couple.individual1.name}">
                     <p><strong>${node.couple.individual1.name} (${node.couple.individual1.nickName})</strong></p>
                     <p>DOB: ${node.couple.individual1.dob}</p>
-                    <!-- if (node.couple.individual1.lifeSpan && Object.keys(node.couple.individual1.lifeSpan).length > 0 {
-                    <p>Life Span: ${node.couple.individual1.lifeSpan.start} - ${node.couple.individual1.lifeSpan.end}</p>
-                    } -->
+            `;
+            if (node.couple.individual1.dod && node.couple.individual1.dod !== 'NA') {
+                htmlcode += `
+                    <p>Demise: ${node.couple.individual1.dob}</p>
+                `;
+            } else {
+                const difference = calculateAge(node.couple.individual1.dob);
+                htmlcode += `
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                `;
+            }
+            htmlcode += `
                 </div>
                 <div>
                     <img src="${node.couple.individual2.image}" alt="${node.couple.individual2.name}">
                     <p><strong>${node.couple.individual2.name} (${node.couple.individual2.nickName})</strong></p>
                     <p>DOB: ${node.couple.individual2.dob}</p>
-                    <!-- <p>Life Span: ${node.couple.individual2.lifeSpan.start} - ${node.couple.individual2.lifeSpan.end}</p>-->
+            `;
+            if (node.couple.individual2.dod && node.couple.individual2.dod !== 'NA') {
+                htmlcode += `
+                    <p>Demise: ${node.couple.individual2.dob}</p>
+                `;
+            } else {
+                const difference = calculateAge(node.couple.individual2.dob);
+                htmlcode += `
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                `;
+            }
+            htmlcode += `     
                 </div>
                 <p>Married: ${node.couple.marriageDate}</p>
             `;
+            div.innerHTML = htmlcode
 
             li.appendChild(div);
             if (node.type === 'couple' && node.children && Object.keys(node.children).length > 0) {
@@ -206,12 +257,22 @@
             }
         } else if (node.type === 'individual') {
             const div = document.createElement('div');
-            div.innerHTML = `
+            let htmlcode = `
                 <img src="${node.individual.image}" alt="${node.individual.name}">
                 <p><strong>${node.individual.name} (${node.individual.nickName})</strong></p>
                 <p>DOB: ${node.individual.dob}</p>
-                <!-- <p>Life Span: ${node.individual.lifeSpan.start} - ${node.individual.lifeSpan.end}</p>-->
             `;
+            if (node.individual.dod && node.individual.dod !== 'NA') {
+                htmlcode += `
+                    <p>Demise: ${node.individual.dob}</p>
+                `;
+            } else {
+                const difference = calculateAge(node.individual.dob);
+                htmlcode += `
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                `;
+            }
+            div.innerHTML = htmlcode
             li.appendChild(div);
         }
 
