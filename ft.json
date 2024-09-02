@@ -304,26 +304,26 @@
                         "couple": {
                             "individual1": {
                                 "name": "Srinjana Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "25-12-1967",
                                 "dod": "NA",
                                 "nickName": "Babli",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Umesh Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "27-10-1962",
                                 "dod": "NA",
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "20-11-1992"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Yash Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "27-08-1993",
                                     "dod": "NA",
                                     "nickName": "",
                                     "image": "https://via.placeholder.com/80"
@@ -333,7 +333,7 @@
                                 "type": "individual",
                                 "individual": {
                                     "name": "Rohan Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "09-05-1998",
                                     "dod": "NA",
                                     "nickName": "Nannu",
                                     "image": "https://via.placeholder.com/80"
