@@ -237,7 +237,17 @@
             let htmlcode = `
                 <div>
                     <img src="${node.couple.individual1.image}" alt="${node.couple.individual1.name}">
+            `;
+            if(node.couple.individual1.nickName && node.couple.individual1.nickName !== '') {
+                htmlcode += `
                     <p><strong>${node.couple.individual1.name} (${node.couple.individual1.nickName})</strong></p>
+                `;
+            } else {
+                htmlcode += `
+                    <p><strong>${node.couple.individual1.name}</strong></p>
+                `;
+            }
+            htmlcode += `
                     <p>Birth: ${node.couple.individual1.dob}</p>
             `;
             if (node.couple.individual1.dod && node.couple.individual1.dod !== 'NA') {
@@ -254,7 +264,17 @@
                 </div>
                 <div>
                     <img src="${node.couple.individual2.image}" alt="${node.couple.individual2.name}">
+            `;
+            if(node.couple.individual2.nickName && node.couple.individual2.nickName !== '') {
+                htmlcode += `
                     <p><strong>${node.couple.individual2.name} (${node.couple.individual2.nickName})</strong></p>
+                `;
+            } else {
+                htmlcode += `
+                    <p><strong>${node.couple.individual2.name}</strong></p>
+                `;
+            }
+            htmlcode += `
                     <p>Birth: ${node.couple.individual2.dob}</p>
             `;
             if (node.couple.individual2.dod && node.couple.individual2.dod !== 'NA') {
@@ -293,7 +313,17 @@
             const div = document.createElement('div');
             let htmlcode = `
                 <img src="${node.individual.image}" alt="${node.individual.name}">
-                <p><strong>${node.individual.name} (${node.individual.nickName})</strong></p>
+            `;
+            if(node.individual.nickName && node.individual.nickName !== '') {
+                htmlcode += `
+                    <p><strong>${node.individual.name} (${node.individual.nickName})</strong></p>
+                `;
+            } else {
+                htmlcode += `
+                    <p><strong>${node.individual.name}</strong></p>
+                `;
+            }
+            htmlcode += `
                 <p>Birth: ${node.individual.dob}</p>
             `;
             if (node.individual.dod && node.individual.dod !== 'NA') {
