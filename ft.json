@@ -34,15 +34,15 @@
                 "couple": {
                     "individual1": {
                         "name": "Pushpa Bhargava",
-                        "dob": "1985-10-10",
-                        "dod": "NA",
+                        "dob": "xx-xx-xxxx",
+                        "dod": "xx-xx-xxxx",
                         "nickName": "Betul Wali Bua",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
                         "name": "Prakash Chand Bhargava",
-                        "dob": "1983-08-15",
-                        "dod": "NA",
+                        "dob": "xx-xx-xxxx",
+                        "dod": "xx-xx-xxxx",
                         "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
