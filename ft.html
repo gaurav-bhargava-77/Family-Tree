@@ -19,7 +19,6 @@
             font-size: 24px;
             font-weight: bold;
         }
-        /* Container for the entire tree, allowing horizontal scrolling */
         .tree-container {
             width: 100%;
             overflow-x: auto;
@@ -27,22 +26,21 @@
             padding-bottom: 20px;
         }
 
-        /* Basic tree styling */
         ul {
             padding-top: 20px;
             position: relative;
             padding-left: 30px;
-            display: inline-block; /* Keep siblings on a single line */
+            display: inline-block;
         }
 
         li {
-            display: inline-block; /* Keep siblings in a single line */
+            display: inline-block;
             text-align: center;
             list-style-type: none;
             position: relative;
-            padding: 10px 5px 0 5px; /* Reduced padding */
+            padding: 10px 5px 0 5px;
             vertical-align: top;
-            min-height: 80px; /* Ensure consistent height for parent nodes */
+            min-height: 80px;
         }
 
         li::before, li::after {
@@ -94,29 +92,29 @@
 
         .tree li div {
             border: 1px solid #ccc;
-            padding: 5px; /* Reduced padding */
+            padding: 5px;
             text-align: center;
             border-radius: 5px;
             background: #fff;
-            font-size: 12px; /* Reduced font size */
-            display: inline-block; /* Keep block inline to center */
+            font-size: 12px;
+            display: inline-block;
         }
 
         .tree li div2 {
             border: 1x solid #ccc;
-            padding: 5px; /* Reduced padding */
+            padding: 5px;
             text-align: center;
             border-radius: 5px;
             background: #605f5f50;
-            font-size: 12px; /* Reduced font size */
-            display: inline-block; /* Keep block inline to center */
+            font-size: 12px;
+            display: inline-block;
         }
 
         .tree img {
             border-radius: 50%;
-            width: 90px; /* Reduced image size */
+            width: 90px;
             height: 90px;
-            margin-bottom: 5px; /* Reduced margin */
+            margin-bottom: 5px;
         }
 
         .tree li div:hover {
@@ -127,24 +125,41 @@
         .toggle-button {
             cursor: pointer;
             color: blue;
-            margin-top: 5px; /* Reduced margin */
-            font-size: 20px; /* Reduced font size */
+            margin-top: 5px;
+            font-size: 20px;
             display: block;
         }
 
         .children {
             display: none;
-            position: relative; /* Changed to relative to avoid affecting parent size */
-            left: 0; /* Center under the parent */
-            top: 0; /* Position relative to parent */
-            margin-left: 30px; /* Indent child tree for clarity */
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-left: 30px;
         }
 
         .children ul {
-            display: block; /* Ensure children are displayed as block elements */
-            padding-left: 0; /* Remove default padding */
-            margin: 0; /* Remove default margin */
+            display: block;
+            padding-left: 0;
+            margin: 0;
         }
+
+        .tooltip {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            font-size: 12px;
+        }
+
+        p::first-letter {
+            text-transform: uppercase;
+        }
+
     </style>
 </head>
 <body>
@@ -159,6 +174,8 @@
     </div>
 </div>
 
+<div class="tooltip" id="tooltip"></div>
+
 <script>
     // Function to fetch JSON data and build the tree
     function fetchFamilyTree() {
@@ -171,37 +188,28 @@
     }
 
     function calculateAge(dob) {
-        // Split the input string
         const [day, month, year] = dob.split('-').map(Number);
-
-        // Create a Date object for the date of birth
-        const dobDate = new Date(year, month - 1, day); // month - 1 because months are 0-indexed
-
-        // Get the current date
+        const dobDate = new Date(year, month - 1, day);
         const today = new Date();
 
-        // Calculate the age in years
         let ageYears = today.getFullYear() - dobDate.getFullYear();
         let ageMonths = today.getMonth() - dobDate.getMonth();
 
-        // Adjust age if the current date is before the birthday in the current year
         if (ageMonths < 0 || (ageMonths === 0 && today.getDate() < dobDate.getDate())) {
             ageYears--;
-            ageMonths += 12; // Adjust months to be positive
+            ageMonths += 12;
         }
 
-        // Adjust months if the current day is less than the birth day
         if (today.getDate() < dobDate.getDate()) {
             ageMonths--;
         }
 
         return {
             years: ageYears,
-            months: ageMonths < 0 ? 0 : ageMonths // Ensure months are non-negative
+            months: ageMonths < 0 ? 0 : ageMonths
         };
     }
-    // Function to create a tree node
-    // Function to create a tree node
+
     function createTreeNode(node) {
         const li = document.createElement('li');
 
@@ -215,10 +223,10 @@
                 const childrenContainer = li.querySelector('.children');
                 if (childrenContainer.style.display === 'none' || childrenContainer.style.display === '') {
                     childrenContainer.style.display = 'block';
-                    toggleButton.innerText = '-'
+                    toggleButton.innerText = '-';
                 } else {
                     childrenContainer.style.display = 'none';
-                    toggleButton.innerText = '+'
+                    toggleButton.innerText = '+';
                 }
             });
 
@@ -235,7 +243,7 @@
             } else {
                 const difference = calculateAge(node.couple.individual1.dob);
                 htmlcode += `
-                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths.</p>
                 `;
             }
             htmlcode += `
@@ -252,14 +260,26 @@
             } else {
                 const difference = calculateAge(node.couple.individual2.dob);
                 htmlcode += `
-                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths.</p>
                 `;
             }
             htmlcode += `     
                 </div>
                 <p><strong>Married: ${node.couple.marriageDate}</strong></p>
             `;
-            div.innerHTML = htmlcode
+            div.innerHTML = htmlcode;
+
+            // Add event listeners for tooltip on couple individuals
+            const individual1Div = div.querySelector('div:nth-child(1)');
+            const individual2Div = div.querySelector('div:nth-child(2)');
+            if (node.couple.individual1.tooltip) {
+            individual1Div.addEventListener('mouseenter', (event) => showTooltip(event, node.couple.individual1));
+            individual1Div.addEventListener('mouseleave', hideTooltip);
+            }
+            if (node.couple.individual2.tooltip) {
+            individual2Div.addEventListener('mouseenter', (event) => showTooltip(event, node.couple.individual2));
+            individual2Div.addEventListener('mouseleave', hideTooltip);
+            }
 
             li.appendChild(div);
             if (node.type === 'couple' && node.children && Object.keys(node.children).length > 0) {
@@ -279,17 +299,24 @@
             } else {
                 const difference = calculateAge(node.individual.dob);
                 htmlcode += `
-                    <p>Age: ${difference.years} yrs and ${difference.months} mths .</p>
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths.</p>
                 `;
             }
-            div.innerHTML = htmlcode
+            div.innerHTML = htmlcode;
+
+            // Add event listeners for tooltip
+            if (node.individual.tooltip) {
+                div.addEventListener('mouseenter', (event) => showTooltip(event, node.individual));
+                div.addEventListener('mouseleave', hideTooltip);
+            }
+
             li.appendChild(div);
         }
 
         if (node.children && node.children.length > 0) {
             const ul = document.createElement('ul');
             ul.className = 'children';
-            ul.style.display = 'none'; // Ensure children are initially hidden
+            ul.style.display = 'none';
             node.children.forEach(child => {
                 ul.appendChild(createTreeNode(child));
             });
@@ -299,10 +326,30 @@
         return li;
     }
 
+    const tooltip = document.getElementById('tooltip');
 
-    // Fetch the family tree data and build the tree on page load
-    window.onload = fetchFamilyTree;
+    function showTooltip(event, individual) {
+        
+        const keys = Object.keys(individual.tooltip);
+        tooltip.innerHTML = ``;
+        
+        for (const [key, value] of Object.entries(individual.tooltip)) {
+            tooltip.innerHTML += `
+                <p><strong>${key}:</strong> ${value}</p>
+            `;
+        }
+        
+        tooltip.style.display = 'block';
+        tooltip.style.left = `${event.pageX + 10}px`;
+        tooltip.style.top = `${event.pageY + 10}px`;
+    }
+
+    function hideTooltip() {
+        tooltip.style.display = 'none';
+    }
+
+    // Fetch the family tree data on page load
+    fetchFamilyTree();
 </script>
-
 </body>
 </html>
