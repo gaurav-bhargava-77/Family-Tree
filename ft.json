@@ -127,7 +127,19 @@
                                         "image": "https://via.placeholder.com/80"
                                     },
                                     "marriageDate": "16-02-2021"
-                                }
+                                },
+                                "children": [
+                                    {
+                                        "type": "individual",
+                                        "individual": {
+                                            "name": "Baby Mansi",
+                                            "dob": "28-08-2024",
+                                            "dod": "NA",
+                                            "nickName": "",
+                                            "image": "https://via.placeholder.com/80"
+                                        }
+                                    }
+                                ]
                             }
                         ]
                     },
