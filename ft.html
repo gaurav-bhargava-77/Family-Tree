@@ -159,7 +159,11 @@
         p::first-letter {
             text-transform: uppercase;
         }
-
+        .wrap-text {
+            width: 50ch; /* 50 characters width */
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
@@ -335,7 +339,7 @@
         
         for (const [key, value] of Object.entries(individual.tooltip)) {
             tooltip.innerHTML += `
-                <p><strong>${key}:</strong> ${value}</p>
+                <p class="wrap-text"><strong>${key}:</strong> ${value}</p>
             `;
         }
         
