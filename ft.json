@@ -54,19 +54,19 @@
                 "couple": {
                     "individual1": {
                         "name": "Chandra Shekhar Bhargava",
-                        "dob": "1985-10-10",
-                        "dod": "NA",
+                        "dob": "27-01-1933",
+                        "dod": "14-06-2014",
                         "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
                     "individual2": {
                         "name": "Santosh Bhargava",
-                        "dob": "1983-08-15",
-                        "dod": "NA",
+                        "dob": "29-12-1933",
+                        "dod": "13-09-2014",
                         "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "13-12-1958"
                 },
                 "children": [
                     {
@@ -74,19 +74,19 @@
                         "couple": {
                             "individual1": {
                                 "name": "Sarika S Bhargava",
-                                "dob": "1985-10-10",
+                                "dob": "31-12-1962",
                                 "dod": "NA",
                                 "nickName": "Guddas",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Ashok Bhargava",
-                                "dob": "1983-08-15",
+                                "dob": "26-07-1956",
                                 "dod": "NA",
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "NA"
+                            "marriageDate": "22-06-1986"
                         },
                         "children": [
                             {
@@ -94,19 +94,19 @@
                                 "couple": {
                                     "individual1": {
                                         "name": "Mayuri Bhargava",
-                                        "dob": "1985-10-10",
+                                        "dob": "04-06-1987",
                                         "dod": "NA",
                                         "nickName": "",
                                         "image": "https://via.placeholder.com/80"
                                     },
                                     "individual2": {
                                         "name": "Siddharth Mehta",
-                                        "dob": "1983-08-15",
+                                        "dob": "07-01-1989",
                                         "dod": "NA",
                                         "nickName": "",
                                         "image": "https://via.placeholder.com/80"
                                     },
-                                    "marriageDate": "NA"
+                                    "marriageDate": "30-11-2017"
                                 }
                             },
                             {
@@ -114,19 +114,19 @@
                                 "couple": {
                                     "individual1": {
                                         "name": "Mansi Bhargava",
-                                        "dob": "1985-10-10",
+                                        "dob": "13-10-1988",
                                         "dod": "NA",
                                         "nickName": "",
                                         "image": "https://via.placeholder.com/80"
                                     },
                                     "individual2": {
-                                        "name": "Varun",
+                                        "name": "Varun Batra",
                                         "dob": "1983-08-15",
                                         "dod": "NA",
                                         "nickName": "",
                                         "image": "https://via.placeholder.com/80"
                                     },
-                                    "marriageDate": "NA"
+                                    "marriageDate": "16-02-2021"
                                 }
                             }
                         ]
