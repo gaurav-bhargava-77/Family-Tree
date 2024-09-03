@@ -904,19 +904,19 @@
                 "couple": {
                     "individual1": {
                         "name": "Dileep Kumar Bhargava",
-                        "dob": "1985-10-10",
-                        "dod": "NA",
+                        "dob": "12-03-1948",
+                        "dod": "06-05-2021",
                         "nickName": "Deepu Ji",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1cSD1M6AXTUSVvh42-l0OZSxko6Wf0ISv"
                     },
                     "individual2": {
                         "name": "Nisha Bhargava",
-                        "dob": "1983-08-15",
+                        "dob": "17-03-1955",
                         "dod": "NA",
                         "nickName": "",
                         "image": "https://via.placeholder.com/80"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "02-02-1980"
                 },
                 "children": [
                     {
@@ -924,39 +924,39 @@
                         "couple": {
                             "individual1": {
                                 "name": "Ratika Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "21-10-1980",
                                 "dod": "NA",
                                 "nickName": "Rattu",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
-                                "name": "Anshu Pandey",
-                                "dob": "19-12-1981",
+                                "name": "Shachindra Pandey",
+                                "dob": "17-10-1975",
                                 "dod": "NA",
-                                "nickName": "",
+                                "nickName": "Anshu",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "29-06-2006"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Aryaman Pandey",
-                                    "dob": "28-07-2008",
+                                    "dob": "03-09-2007",
                                     "dod": "NA",
                                     "nickName": "Aru",
-                                    "image": "https://via.placeholder.com/80"
+                                    "image": "https://drive.google.com/thumbnail?id=1cIE_wIJ1FciG5m8UL9b53kwDyE6TgsKo"
                                 }
                             },
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Sana Pandey",
-                                    "dob": "09-07-2011",
+                                    "name": "Saanvi Pandey",
+                                    "dob": "23-06-2011",
                                     "dod": "NA",
-                                    "nickName": "",
-                                    "image": "https://via.placeholder.com/80"
+                                    "nickName": "Sana",
+                                    "image": "https://drive.google.com/thumbnail?id=1HUirAFrFKzM6eJocUaF222W_scFpfgex"
                                 }
                             }
                         ]
@@ -966,29 +966,29 @@
                         "couple": {
                             "individual1": {
                                 "name": "Richa Bhargava",
-                                "dob": "02-12-1980",
+                                "dob": "17-12-1984",
                                 "dod": "NA",
-                                "nickName": "Gudia",
-                                "image": "https://via.placeholder.com/80"
+                                "nickName": "Richu",
+                                "image": "https://drive.google.com/thumbnail?id=1c-QNoThDhhB_WEXbIKe7cdQ6J_PFE4aF"
                             },
                             "individual2": {
                                 "name": "Rahul Sharma",
-                                "dob": "22-12-1971",
+                                "dob": "18-09-1983",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1cRq6tr6TiZgNV4dop69unVbloBs8Xjfm"
                             },
-                            "marriageDate": "17-11-2009"
+                            "marriageDate": "07-02-2011"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Mishthi Bhargava",
-                                    "dob": "13-08-2012",
+                                    "name": "Gauri Gaur",
+                                    "dob": "14-02-2014",
                                     "dod": "NA",
-                                    "nickName": "Mishthi",
-                                    "image": "https://via.placeholder.com/80"
+                                    "nickName": "Mishti",
+                                    "image": "https://drive.google.com/thumbnail?id=1d5HSNpGzKHw-zG-ZKTyDWNeTVn0RmOXD"
                                 }
                             }
                         ]
@@ -998,29 +998,29 @@
                         "couple": {
                             "individual1": {
                                 "name": "Rishabh Bhargava",
-                                "dob": "29-03-1983",
+                                "dob": "31-08-1988",
                                 "dod": "NA",
                                 "nickName": "",
                                 "image": "https://via.placeholder.com/80"
                             },
                             "individual2": {
                                 "name": "Shambhavi Bhargava",
-                                "dob": "22-01-1980",
+                                "dob": "08-08-1989",
                                 "dod": "NA",
-                                "nickName": "",
+                                "nickName": "Rinki",
                                 "image": "https://via.placeholder.com/80"
                             },
-                            "marriageDate": "02-12-2008"
+                            "marriageDate": "22-11-2015"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Alishca Bhargava",
-                                    "dob": "12-11-2012",
+                                    "dob": "15-11-2017",
                                     "dod": "NA",
-                                    "nickName": "Peehu",
-                                    "image": "https://via.placeholder.com/80"
+                                    "nickName": "Pihu",
+                                    "image": "https://drive.google.com/thumbnail?id=1vzm1yeyoVMnoN9WpVgtmjk7AQoAu3rSQ"
                                 }
                             }
                         ]
