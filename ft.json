@@ -436,19 +436,19 @@
                 "couple": {
                     "individual1": {
                         "name": "Shiv Shankar Bhargava",
-                        "dob": "1985-10-10",
+                        "dob": "23-05-1937",
                         "dod": "NA",
-                        "nickName": "Shibu Ji",
-                        "image": "https://via.placeholder.com/80"
+                        "nickName": "Shibbu Ji",
+                        "image": "https://drive.google.com/thumbnail?id=1pxwKuZvv8nkmEoQIbK7d2g1FNKsZVOC2"
                     },
                     "individual2": {
                         "name": "Sudha Bhargava",
-                        "dob": "1983-08-15",
-                        "dod": "NA",
+                        "dob": "xx-xx-xxxx",
+                        "dod": "xx-xx-xxxx",
                         "nickName": "",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1q11CRCWHiVhdvcO-TwCFeaKldyZi8WZZ"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "xx-xx-xxxx"
                 },
                 "children": [
                     {
@@ -456,19 +456,19 @@
                         "couple": {
                             "individual1": {
                                 "name": "Srishti Bhargava",
-                                "dob": "22-09-1977",
+                                "dob": "11-04-1968",
                                 "dod": "NA",
                                 "nickName": "Bullu",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1ph67po6hNe2RvrgiLzQxyq35zxt_vJ-G"
                             },
                             "individual2": {
                                 "name": "Sanjay Bhargava",
-                                "dob": "19-12-1981",
+                                "dob": "19-08-1966",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1phXcoodExzF13Ww9rgnBta19s7xuPDTr"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "22-09-xxxx"
                         },
                         "children": [
                             {
@@ -476,29 +476,29 @@
                                 "couple": {
                                     "individual1": {
                                         "name": "Aviral Bhargava",
-                                        "dob": "22-09-1977",
+                                        "dob": "12-11-1991",
                                         "dod": "NA",
                                         "nickName": "Avi",
-                                        "image": "https://via.placeholder.com/80"
+                                        "image": "https://drive.google.com/thumbnail?id=1pdmjuyQ-gbXXWnwFxiDgzhpDbWPeLfLV"
                                     },
                                     "individual2": {
                                         "name": "Nayanika Bhargava",
-                                        "dob": "19-12-1981",
+                                        "dob": "24-12-1992",
                                         "dod": "NA",
                                         "nickName": "",
-                                        "image": "https://via.placeholder.com/80"
+                                        "image": "https://drive.google.com/thumbnail?id=1pfgKgb-bu7lwst0Rggh5sYlsVTQEVOHj"
                                     },
-                                    "marriageDate": "23-11-2005"
+                                    "marriageDate": "09-12-2017"
                                 }
                             },
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Arjun Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "04-12-1996",
                                     "dod": "NA",
                                     "nickName": "Ashu",
-                                    "image": "https://via.placeholder.com/80"
+                                    "image": "https://drive.google.com/thumbnail?id=1pvhUS9cUOlzNuRbk4B67rx-bv1aTEFnE"
                                 }
                             }
                         ]
