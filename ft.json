@@ -459,14 +459,24 @@
                         "dob": "23-05-1937",
                         "dod": "NA",
                         "nickName": "Shibbu Ji",
-                        "image": "https://drive.google.com/thumbnail?id=1pxwKuZvv8nkmEoQIbK7d2g1FNKsZVOC2"
+                        "image": "https://drive.google.com/thumbnail?id=1pxwKuZvv8nkmEoQIbK7d2g1FNKsZVOC2",
+                        "tooltip": {
+                            "place": "Lucknow, UP",
+                            "job": "Consultant - Structural Design and Engineering",
+                            "About": "Shibu Ji is a passionaite engineer specializing in Structural Engg. projects, and his passion for the field remains strong even in his later stages of retirement. He continues to engage in various engineering projects and has a rich background as a former lecturer in a polytechnic. Committed to social service, he has significantly impacted the lives of underprivileged children in rural areas of UP. Revered as the most loved and admired member of the family, he is recognized for his unwavering discipline and punctuality, traits that earned him deep respect and admiration from everyone, young and old . His deep love for family was poignantly demonstrated by his selfless act of donating a kidney to his brother. Shibu Ji is also known for his diverse talents, excelling in sports, drawing, sketching, and singing, which further enrich his vibrant personality."
+                        }
                     },
                     "individual2": {
                         "name": "Sudha Bhargava",
                         "dob": "xx-xx-xxxx",
                         "dod": "xx-xx-xxxx",
                         "nickName": "",
-                        "image": "https://drive.google.com/thumbnail?id=1q11CRCWHiVhdvcO-TwCFeaKldyZi8WZZ"
+                        "image": "https://drive.google.com/thumbnail?id=1q11CRCWHiVhdvcO-TwCFeaKldyZi8WZZ",
+                        "tooltip": {
+                            "place": "Lucknow, UP",
+                            "job": "Housewife",
+                            "About": "Sudha was a remarkable individual and a true fighter, having bravely survived cancer three times. Her heart was full of love for everyone around her, and she always enjoyed cooking for her family. A multi-talented person, she had a passion for creativity that would have likely led her to become a dress designer if she were alive today. Always striving to do her best for her family, she was candid in her communication, providing constructive feedback when it could help others. Her caring nature made her a cherished presence in the lives of those who knew her."
+                        }
                     },
                     "marriageDate": "11-12-62"
                 },
