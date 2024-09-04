@@ -284,13 +284,21 @@
             } else {
                 const difference = calculateAge(node.couple.individual2.dob);
                 htmlcode += `
-                    <p>Age: ${difference.years} yrs and ${difference.months} mths.</p>
+                    <p>Age: ${difference.years} yrs and ${difference.months} mths</p>
                 `;
             }
-            htmlcode += `     
+            const marriageage = calculateAge(node.couple.marriageDate);
+            if (node.couple.marriageDate === 'NA' || isNaN(marriageage.years) || isNaN(marriageage.months)) {
+                htmlcode += `
                 </div>
                 <p><strong>Married: ${node.couple.marriageDate}</strong></p>
-            `;
+                `;
+            } else {
+                htmlcode += `     
+                </div>
+                <p><strong>Married: ${node.couple.marriageDate}</strong> (${marriageage.years} yrs and ${marriageage.months} mths)</p>
+                `;
+            }
             div.innerHTML = htmlcode;
 
             // Add event listeners for tooltip on couple individuals
