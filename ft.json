@@ -509,50 +509,50 @@
                 "type": "couple",
                 "couple": {
                     "individual1": {
-                        "name": "Rajesh Kumar Bhargava",
-                        "dob": "1985-10-10",
+                        "name": "Rr. Rajesh Kumar Bhargava",
+                        "dob": "07-01-1942",
                         "dod": "NA",
-                        "nickName": "Gibban Ji",
-                        "image": "https://via.placeholder.com/80"
+                        "nickName": "Gibbon Ji",
+                        "image": "https://drive.google.com/thumbnail?id=1CRmkxMGv-elbJq5D1MjwBQ3G8KyWaF62"
                     },
                     "individual2": {
                         "name": "Uma Bhargava",
-                        "dob": "1983-08-15",
+                        "dob": "18-04-1950",
                         "dod": "NA",
                         "nickName": "",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://drive.google.com/thumbnail?id=1EZLRi13P0qXtyZgMN6MkVntZUVjATCz0"
                     },
-                    "marriageDate": "NA"
+                    "marriageDate": "08-11-1981"
                 },
                 "children": [
                     {
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "Vishal Bhargava",
-                                "dob": "22-09-1977",
+                                "name": "Dr. Vishal Bhargava",
+                                "dob": "05-09-1982",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1w86-miIK5w6xxEq3t3HMnTr6Le8jfyJC"
                             },
                             "individual2": {
-                                "name": "Richa Bhargava",
-                                "dob": "19-12-1981",
+                                "name": "Dr. Richa Bhargava",
+                                "dob": "03-11-1983",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1OF-waaMeR0RmAgVZaBQPN5ReJ4GJB3pL"
                             },
-                            "marriageDate": "23-11-2005"
+                            "marriageDate": "16-01-2013"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
                                     "name": "Saanvi Bhargava",
-                                    "dob": "28-07-2008",
+                                    "dob": "07-04-2015",
                                     "dod": "NA",
-                                    "nickName": "",
-                                    "image": "https://via.placeholder.com/80"
+                                    "nickName": "Maani",
+                                    "image": "https://drive.google.com/thumbnail?id=1EfkTys1YG2IJ8NMBMOv1DDo0ZJOtC48y"
                                 }
                             }
                         ]
@@ -561,30 +561,30 @@
                         "type": "couple",
                         "couple": {
                             "individual1": {
-                                "name": "Neha Bhargava",
-                                "dob": "02-12-1980",
+                                "name": "Dr. Neha Bhargava",
+                                "dob": "19-11-1984",
                                 "dod": "NA",
                                 "nickName": "Minnu",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1ZGgKKNvOZ8WOya2dBQjCBy2HoS_PO30a"
                             },
                             "individual2": {
                                 "name": "Dr. Ram Rawat",
-                                "dob": "22-12-1971",
+                                "dob": "27-07-1982",
                                 "dod": "NA",
                                 "nickName": "",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://drive.google.com/thumbnail?id=1keg-pAX5M-Z9OjSld0Xs-fc0IxdSBE2o"
                             },
-                            "marriageDate": "17-11-2009"
+                            "marriageDate": "07-03-2011"
                         },
                         "children": [
                             {
                                 "type": "individual",
                                 "individual": {
-                                    "name": "Radhika Bhargava",
-                                    "dob": "13-08-2012",
+                                    "name": "Radhika Rawat",
+                                    "dob": "02-01-2014",
                                     "dod": "NA",
-                                    "nickName": "",
-                                    "image": "https://via.placeholder.com/80"
+                                    "nickName": "Kittu",
+                                    "image": "https://drive.google.com/thumbnail?id=1JV8Wvh6Y9SIMuJlExf13c1iKoHxFSfdZ"
                                 }
                             }
                         ]
