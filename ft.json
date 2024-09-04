@@ -9,7 +9,7 @@
                 "nickName": "Babaji",
                 "image": "https://drive.google.com/thumbnail?id=1XC7OAA9WOX0HdpCJnuNer9lHtVwk1tAd",
                 "tooltip": {
-                    "place": "Allahabad",
+                    "place": "Allahabad, UP",
                     "job": "(Retd.) DSP - Police",
                     "About": "Pt. Bhargava, was a deeply committed member of Ganga Mandali, a group devoted to spiritual discipline. Every single day of the year, without fail, he would rise early at 5 AM and take a holy dip in the Ganga. His dedication was a beacon for the family, and by the time he returned, everyone in the household knew they had to be ready for the Ramayan Path, a practice that instilled a sense of discipline and devotion in every member of family."
                 }
@@ -21,7 +21,7 @@
                 "nickName": "Ammaji",
                 "image": "https://drive.google.com/thumbnail?id=1cRjRS3ljtPe6VZR2L81a-wd1Plo8Sfi2",
                 "tooltip": {
-                    "place": "Allahabad",
+                    "place": "Allahabad, UP",
                     "job": "Housewife",
                     "About": "Smt. Raj Rani Bhargava was a religious housewife who found joy in the company of her large, loving family, filled with children and grandchildren. Married at a young age, she embraced a life rich with love and laughter. She particularly enjoyed playing cards with Babaji and other family members, making cherished memories together."
                 }
@@ -57,14 +57,24 @@
                         "dob": "27-01-1933",
                         "dod": "14-06-2014",
                         "nickName": "Lallu Ji",
-                        "image": "https://drive.google.com/thumbnail?id=1Cm-VRsF9Ob_f4JRgClsmCl4DX6yxl_lJ"
+                        "image": "https://drive.google.com/thumbnail?id=1Cm-VRsF9Ob_f4JRgClsmCl4DX6yxl_lJ",
+                        "tooltip": {
+                            "place": "Jaipur, Rajasthan",
+                            "job": "(Retd.) AGM S.B.I",
+                            "About": "CS Bhargava, who retired from SBI, was a man of great humility and respect, both at work and within his family. Starting his career as a clerk, his hard work and dedication saw him rise to a senior level by the time he retired. He was not only a mentor to many but also a valued member of various social organisations. As the eldest brother and a father figure to the entire family, his maturity, kindness, and unwavering commitment were deeply respected. Though he never raised his voice, his dissapproval would shake people's core, reflecting his calm yet commanding presence. His humorous anecdotes were a source of learning for his children, making him a guiding force in their lives."
+                        }
                     },
                     "individual2": {
                         "name": "Santosh Bhargava",
                         "dob": "29-12-1936",
                         "dod": "13-09-2014",
                         "nickName": "Bhugga",
-                        "image": "https://drive.google.com/thumbnail?id=1JdUMQJK-gVn8X1YmOce5vtB06Q3cCyGy"
+                        "image": "https://drive.google.com/thumbnail?id=1JdUMQJK-gVn8X1YmOce5vtB06Q3cCyGy",
+                        "tooltip": {
+                            "place": "Jaipur, Rajasthan",
+                            "job": "Housewife",
+                            "About": "Santosh was a devoted housewife, known for her kindness, gentle nature, and a heart so big it encompassed ages and continents, often defying reason. Simple and loved by all, she embraced life with warmth and grace. After marrying into the family, she learned to play cards, quickly earning everyone's affection with her newfound skill. She had a passion for travel, exploring new places with her husband, and was an enthusiastic cook who also enjoyed indulging in chole from outside vendors. Never one to complain, Santosh was deeply loved by her parents and in-laws. As the eldest daughter-in-law, she took care of her much younger brothers-in-law just like a mother, adding a comforting presence to her family. She also had a special fondness for tea."
+                        }
                     },
                     "marriageDate": "13-12-1958"
                 },
@@ -251,7 +261,7 @@
                         "nickName": "",
                         "image": "https://drive.google.com/thumbnail?id=1I3Mn4QTnFuZ1S8GGoY0bjWzonNJ467TH",
                         "tooltip": {
-                            "place": "Earlier Rewa, MP, Now Bhopal",
+                            "place": "Earlier Rewa, MP and now Bhopal, MP",
                             "job": "Housewife",
                             "About": "Badi Sudha (as fondly called in family) is a warm and caring individual, always ready to help others in any situation. Her accommodating nature and love for meeting people make her a cherished presence in any gathering. She is a treasure trove of knowledge, from home remedies to rituals, and never forgets a special occasion. An expert in home-cooked sweets, she adds a touch of sweetness to every celebration. Her creativity shines through in the sweaters and crochet items she has lovingly made for so many. Her deep devotion is especially evident during Krishna Janmashtami, a celebration close to her heart."
                         }
