@@ -237,14 +237,24 @@
                         "dob": "07-02-1935",
                         "dod": "09-02-2012",
                         "nickName": "Rabu Ji",
-                        "image": "https://drive.google.com/thumbnail?id=15jJpK2wYr6c1QHRA5exLDqrTL2KuU_rC"
+                        "image": "https://drive.google.com/thumbnail?id=15jJpK2wYr6c1QHRA5exLDqrTL2KuU_rC",
+                        "tooltip": {
+                            "place": "Rewa, MP",
+                            "job": "(Retd.) Engineer - Irrigation Dept. M.P.",
+                            "About": "Rabu Ji was a man of great humility and warmth, known for his friendly nature and easygoing personality. He had a deep passion for sports, fitness, and swimming, often dedicating hours to these activities. His commitment to health was evident in his routine of waking up at 4 AM for his morning walk and exercise. He encouraged others to live freely and pursue their dreams, always offering practical advice for any challenge. After a fulfilling career in the Irrigation Department of Madhya Pradesh, he left behind a legacy of fitness, wisdom, and kindness."
+                        }
                     },
                     "individual2": {
                         "name": "Sudha Bhargava",
                         "dob": "01-09-1942",
                         "dod": "NA",
                         "nickName": "",
-                        "image": "https://drive.google.com/thumbnail?id=1I3Mn4QTnFuZ1S8GGoY0bjWzonNJ467TH"
+                        "image": "https://drive.google.com/thumbnail?id=1I3Mn4QTnFuZ1S8GGoY0bjWzonNJ467TH",
+                        "tooltip": {
+                            "place": "Earlier Rewa, MP, Now Bhopal",
+                            "job": "Housewife",
+                            "About": "Badi Sudha (as fondly called in family) is a warm and caring individual, always ready to help others in any situation. Her accommodating nature and love for meeting people make her a cherished presence in any gathering. She is a treasure trove of knowledge, from home remedies to rituals, and never forgets a special occasion. An expert in home-cooked sweets, she adds a touch of sweetness to every celebration. Her creativity shines through in the sweaters and crochet items she has lovingly made for so many. Her deep devotion is especially evident during Krishna Janmashtami, a celebration close to her heart."
+                        }
                     },
                     "marriageDate": "06-12-1962"
                 },
