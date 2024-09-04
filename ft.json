@@ -1087,14 +1087,24 @@
                         "dob": "24-06-1951",
                         "dod": "NA",
                         "nickName": "Ashok Ji",
-                        "image": "https://drive.google.com/thumbnail?id=1LYQKUBeoWovl5oPZZ7veNJ39FYc8NA-J   "
+                        "image": "https://drive.google.com/thumbnail?id=1LYQKUBeoWovl5oPZZ7veNJ39FYc8NA-J",
+                        "tooltip": {
+                            "place": "Gudgaon, Haryana",
+                            "job": "(Retd.) Contractor - Real Estate",
+                            "About": "Ashok Ji is a vibrant personality known for his singing talent, his skill in whipping up the best meals, and his unmatched prowess in card games. He consistently impresses people with his positive attitude and commitment to a healthy lifestyle. As the heart of the family, he brings fun and warmth to every gathering. He has a delightful and humorous way of telling stories, captivating his audience for extended periods. Though he may have moments of impatience, his light-hearted spirit and warm personality always shine through. Ashok Ji takes great care in nurturing his relationships, and his heartwarming nature makes him a friend to everyone who knows him."
+                        }
                     },
                     "individual2": {
                         "name": "Renu Bhargava",
                         "dob": "05-09-1960",
                         "dod": "08-11-2016",
                         "nickName": "",
-                        "image": "https://drive.google.com/thumbnail?id=1PRqFT39bqo65JubbjMKuqp95gk5usoIB"
+                        "image": "https://drive.google.com/thumbnail?id=1PRqFT39bqo65JubbjMKuqp95gk5usoIB",
+                        "tooltip": {
+                            "place": "Gudgaon, Haryana",
+                            "job": "Housewife",
+                            "About": "Renu was a remarkable woman whose cooking skills had a unique way of bringing everyone together. Her deep faith was central to her life, and she always offered quiet but unwavering support and love to her family. Renu was like a coconut—firm and disciplined on the outside, yet incredibly gentle at heart. She was a strong woman who never gave up, no matter the situation, and her strength was as much a part of her as her culinary talent."
+                        }
                     },
                     "marriageDate": "29-11-1983"
                 },
