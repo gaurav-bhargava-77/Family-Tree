@@ -831,14 +831,24 @@
                         "dob": "17-07-1946",
                         "dod": "NA",
                         "nickName": "Guttu Ji",
-                        "image": "https://drive.google.com/thumbnail?id=1I93PnNseIqWM_wgldn2UE8ZMt1ZS3jp-"
+                        "image": "https://drive.google.com/thumbnail?id=1I93PnNseIqWM_wgldn2UE8ZMt1ZS3jp-",
+                        "tooltip": {
+                            "place": "Bangalore, Karnataka",
+                            "job": "(Retd.) Deputy Manager S.B.I",
+                            "About": "Avadhesh Ji, affectionately dubbed 'Jham Saheb' by his friends during his early working days, is a retired SBI professional with a friendly demeanor that has earned him countless friendships. His welcoming nature makes it easy for people to connect with him, and he values maintaining those friendships over time. Always ready to lend a helping hand, AKB believes in supporting others by checking in to see if they need assistance. He enjoys traveling to new places and is an excellent cook, known for creating unique dishes with fresh ingredients that never fail to impress. AKB also enjoys playing Teen Patti and Marriage in card games and has a sweet tooth for desserts. He enjoys sharing an occasional whiskey with loved ones, which adds to his charm as a companion."
+                        }
                     },
                     "individual2": {
                         "name": "Sushma Bhargava",
                         "dob": "22-11-1950",
                         "dod": "NA",
                         "nickName": "",
-                        "image": "https://drive.google.com/thumbnail?id=1A0QafKBNZF7kXpe1Xdb5TUGtJoUZtpH0"
+                        "image": "https://drive.google.com/thumbnail?id=1A0QafKBNZF7kXpe1Xdb5TUGtJoUZtpH0",
+                        "tooltip": {
+                            "place": "Bangalore, Karnataka",
+                            "job": "Housewife",
+                            "About": "Sushma is a remarkably simple and down-to-earth individual who embraces a basic lifestyle, finding joy in the everyday. She has always shown deep respect for elders and is widely regarded as an exceptional cook, often celebrated as the best in the family. With her ability to whip up fast and delicious meals, she would frequently impress unexpected guests with a sumptuous last-minute feast, earning appreciation from her father-in-law. A firm believer in truth, she is dedicated to caring for her children. Sushma is a religious and god-fearing woman with a remarkable memory, recalling many cherished moments from her life. During her younger years, she enjoyed playing badminton and carrom, and still always look forward to a family game of Teen Patti"
+                        }
                     },
                     "marriageDate": "23-11-1976"
                 },
