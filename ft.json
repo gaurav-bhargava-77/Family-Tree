@@ -629,14 +629,24 @@
                         "dob": "18-01-1944",
                         "dod": "07-08-2015",
                         "nickName": "Bade Bhaiya",
-                        "image": "https://drive.google.com/thumbnail?id=1gW7UcPoAmBWWxfVJM13D8eaBDsU7tDOw"
+                        "image": "https://drive.google.com/thumbnail?id=1gW7UcPoAmBWWxfVJM13D8eaBDsU7tDOw",
+                        "tooltip": {
+                            "place": "Ghaziabad, U.P.",
+                            "job": "(Retd.) A.E. Jal Nigam -> C.E.O. Alps Engineers",
+                            "About": "Lav Ji exhibited a high level of risk-taking behavior in his approach to life. He engaged in a diverse range of pursuits, including astrology, engineering, music (Harmonium), sketching and reading.He had profound and deep-rooted feelings of affection and attachment towards family. He loved kids a lot and use to be very happy seeing them excel in life. He was very strong person and despite major health issue early in life, he stepped up and rocked like no one."
+                        }
                     },
                     "individual2": {
                         "name": "Veena Bhargava",
                         "dob": "02-10-1948",
                         "dod": "27-07-1997",
                         "nickName": "",
-                        "image": "https://drive.google.com/thumbnail?id=1H-Jg0o5K65pIp8uhxFv6x9zHX-YNm2ew"
+                        "image": "https://drive.google.com/thumbnail?id=1H-Jg0o5K65pIp8uhxFv6x9zHX-YNm2ew",
+                        "tooltip": {
+                            "place": "Ghaziabad, U.P.",
+                            "job": "Housewife",
+                            "About": "Veena was a woman of great passion, especially when it came to cooking and gardening. She carefully maintained a diary filled with bhajans and recipes, and her culinary creations, like dhokla and Mysore pak, are still fondly remembered by many. Known for her exceptional resilience and determination, Veena had a warm and welcoming nature, always treating guests in her home with affection and care."
+                        }
                     },
                     "marriageDate": "20-11-1971"
                 },
