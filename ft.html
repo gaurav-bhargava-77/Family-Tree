@@ -179,7 +179,7 @@
 </div>
 
 <div class="tooltip" id="tooltip"></div>
-
+<p id="myElement"></p>
 <script>
     // Function to fetch JSON data and build the tree
     function fetchFamilyTree() {
@@ -189,6 +189,11 @@
                 const treeContainer = document.getElementById('familyTree');
                 treeContainer.appendChild(createTreeNode(data.root));
             });
+            return new Promise((resolve) => {
+            setTimeout(() => {
+            resolve();
+            }, 2000); // Simulate network delay
+    });
     }
 
     function calculateAge(dob) {
@@ -218,6 +223,7 @@
         const li = document.createElement('li');
 
         if (node.type === 'couple') {
+            total+= 2;
             const div = document.createElement('div2');
             const toggleButton = document.createElement('span');
             toggleButton.className = 'toggle-button';
@@ -238,6 +244,9 @@
                 <div>
                     <img src="${node.couple.individual1.image}" alt="${node.couple.individual1.name}">
             `;
+            if (node.couple.individual1.dod === 'NA') {
+                alive+=1;
+            }
             if(node.couple.individual1.nickName && node.couple.individual1.nickName !== '') {
                 htmlcode += `
                     <p><strong>${node.couple.individual1.name} (${node.couple.individual1.nickName})</strong></p>
@@ -259,6 +268,9 @@
                 htmlcode += `
                     <p>Age: ${difference.years} yrs and ${difference.months} mths</p>
                 `;
+            }
+            if (node.couple.individual2.dod === 'NA') {
+                alive+=1;
             }
             htmlcode += `
                 </div>
@@ -318,6 +330,10 @@
                 li.appendChild(toggleButton);
             }
         } else if (node.type === 'individual') {
+            total+= 1;
+            if (node.individual.dod === 'NA') {
+                alive+=1;
+            }
             const div = document.createElement('div');
             let htmlcode = `
                 <img src="${node.individual.image}" alt="${node.individual.name}">
@@ -360,7 +376,7 @@
             ul.className = 'children';
             ul.style.display = 'none';
             node.children.forEach(child => {
-                ul.appendChild(createTreeNode(child));
+                ul.appendChild(createTreeNode(child,total,alive));
             });
             li.appendChild(ul);
         }
@@ -391,7 +407,15 @@
     }
 
     // Fetch the family tree data on page load
-    fetchFamilyTree();
-</script>
+    total=0,alive=0;
+    async function updateFamilyTree() {
+        await fetchFamilyTree();
+        document.getElementById("myElement").textContent = 
+        "Total Members : " + total + ", Active Members: " + alive;
+    }
+    updateFamilyTree();
+
+</script>   
+    
 </body>
 </html>
