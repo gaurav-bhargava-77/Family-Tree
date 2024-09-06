@@ -37,14 +37,14 @@
                         "dob": "xx-xx-xxxx",
                         "dod": "xx-xx-xxxx",
                         "nickName": "Betul Wali Bua",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                     },
                     "individual2": {
                         "name": "Prakash Chand Bhargava",
                         "dob": "xx-xx-xxxx",
                         "dod": "xx-xx-xxxx",
                         "nickName": "",
-                        "image": "https://via.placeholder.com/80"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                     },
                     "marriageDate": "NA"
                 }
@@ -146,7 +146,7 @@
                                             "dob": "28-08-2024",
                                             "dod": "NA",
                                             "nickName": "",
-                                            "image": "https://via.placeholder.com/80"
+                                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                                         }
                                     }
                                 ]
@@ -383,14 +383,14 @@
                                 "dob": "02-01-1970",
                                 "dod": "NA",
                                 "nickName": "Dabbu",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                             },
                             "individual2": {
                                 "name": "Deepti Bhargava",
                                 "dob": "12-12-1975",
                                 "dod": "NA",
                                 "nickName": "Deepali",
-                                "image": "https://via.placeholder.com/80"
+                                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                             },
                             "marriageDate": "03-03-1998"
                         },
@@ -402,7 +402,7 @@
                                     "dob": "30-11-1999",
                                     "dod": "NA",
                                     "nickName": "Rikki",
-                                    "image": "https://via.placeholder.com/80"
+                                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                                 }
                             },
                             {
@@ -412,7 +412,7 @@
                                     "dob": "23-08-2005",
                                     "dod": "NA",
                                     "nickName": "Nikki",
-                                    "image": "https://via.placeholder.com/80"
+                                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s"
                                 }
                             }
                         ]
@@ -481,6 +481,21 @@
                     "marriageDate": "11-12-62"
                 },
                 "children": [
+                    {
+                        "type": "individual",
+                        "individual": {
+                            "name": "Shaily Bhargava",
+                            "dob": "03-12-1965",
+                            "dod": "xx-08-1980",
+                            "nickName": "Shaily",
+                            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCTMhnLo43ZCkuSoHwfvO8sj3nLMJLU9_EA&s",
+                            "tooltip": {
+                                "place": "Allahabad",
+                                "job": "",
+                                "About": "Shaily was the cutest child in our family, with his fair complexion, striking blue eyes, and adorable curly hair. His presence was like a ray of sunshine, and everyone was drawn to him, always wanting to hold him in their arms. Though we lost him far too soon due to illness, his memory lives on in our hearts, forever cherished as the beautiful little boy who brought joy to everyone around him."
+                            }
+                        }
+                    },
                     {
                         "type": "couple",
                         "couple": {
